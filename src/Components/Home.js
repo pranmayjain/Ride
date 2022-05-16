@@ -196,19 +196,19 @@ export default function Home(props) {
                 <img src={map} alt="logo" />
               </li>
               <li className="my-3 col w-50">
-                <li className="my-1" style={{ marginLeft: "-285px" }}>
+                <li className="my-1" style={{ marginLeft: "-70px" }}>
                   Ride Id: {props.data.Ride[0].id}
                 </li>
-                <li className="my-1" style={{ marginLeft: "-285px" }}>
+                <li className="my-1" style={{ marginLeft: "-70px" }}>
                   Origin Station: {props.data.Ride[0].origin_station_code}
                 </li>
-                <li className="my-1" style={{ marginLeft: "-285px" }}>
+                <li className="my-1" style={{ marginLeft: "-70px" }}>
                   station_path: {props.data.Ride[0].station_path}
                 </li>
-                <li className="my-1" style={{ marginLeft: "-285px" }}>
+                <li className="my-1" style={{ marginLeft: "-70px" }}>
                   Date: {txtDate}
                 </li>
-                <li className="my-1" style={{ marginLeft: "-285px" }}>
+                <li className="my-1" style={{ marginLeft: "-70px" }}>
                   Distance: {props.arr[0][distance1] - props.user.station_code}
                 </li>
               </li>
@@ -216,14 +216,14 @@ export default function Home(props) {
                 <button
                   type="button"
                   className="btn btn-dark rounded-pill shadow-none"
-                  style={{ marginLeft: "300px" }}
+                  style={{ marginLeft: "130px" }}
                 >
                   {props.data.Ride[0].state}
                 </button>
                 <button
                   type="button"
                   className="btn btn-dark rounded-pill mx-4 shadow-none"
-                  style={{ marginRight: "300px" }}
+                  style={{ marginRight: "130px" }}
                 >
                   {props.data.Ride[0].city}
                 </button>
@@ -245,19 +245,19 @@ export default function Home(props) {
                 <img src={map} alt="logo" />
               </li>
               <li className="my-3 col w-50">
-                <li className="my-1" style={{ marginLeft: "-285px" }}>
+                <li className="my-1" style={{ marginLeft: "-70px" }}>
                   Ride Id: {props.data.Ride[1].id}
                 </li>
-                <li className="my-1" style={{ marginLeft: "-285px" }}>
+                <li className="my-1" style={{ marginLeft: "-70px" }}>
                   Origin Station: {props.data.Ride[1].origin_station_code}
                 </li>
-                <li className="my-1" style={{ marginLeft: "-285px" }}>
+                <li className="my-1" style={{ marginLeft: "-70px" }}>
                   station_path: {props.data.Ride[1].station_path}
                 </li>
-                <li className="my-1" style={{ marginLeft: "-285px" }}>
+                <li className="my-1" style={{ marginLeft: "-70px" }}>
                   Date: {txtDate}
                 </li>
-                <li className="my-1" style={{ marginLeft: "-285px" }}>
+                <li className="my-1" style={{ marginLeft: "-70px" }}>
                   Distance: {props.arr1[0][distance2] - props.user.station_code}
                 </li>
               </li>
@@ -265,14 +265,14 @@ export default function Home(props) {
                 <button
                   type="button"
                   className="btn btn-dark rounded-pill shadow-none"
-                  style={{ marginLeft: "300px" }}
+                  style={{ marginLeft: "130px" }}
                 >
                   {props.data.Ride[1].state}
                 </button>
                 <button
                   type="button"
                   className="btn btn-dark rounded-pill mx-4 shadow-none"
-                  style={{ marginRight: "300px" }}
+                  style={{ marginRight: "130px" }}
                 >
                   {props.data.Ride[1].city}
                 </button>
@@ -294,19 +294,19 @@ export default function Home(props) {
                 <img src={map} alt="logo" />
               </li>
               <li className="my-3 col w-50">
-                <li className="my-1" style={{ marginLeft: "-285px" }}>
+                <li className="my-1" style={{ marginLeft: "-70px" }}>
                   Ride Id: {props.data.Ride[2].id}
                 </li>
-                <li className="my-1" style={{ marginLeft: "-285px" }}>
+                <li className="my-1" style={{ marginLeft: "-70px" }}>
                   Origin Station: {props.data.Ride[2].origin_station_code}
                 </li>
-                <li className="my-1" style={{ marginLeft: "-285px" }}>
+                <li className="my-1" style={{ marginLeft: "-70px" }}>
                   station_path: {props.data.Ride[2].station_path}
                 </li>
-                <li className="my-1" style={{ marginLeft: "-285px" }}>
+                <li className="my-1" style={{ marginLeft: "-70px" }}>
                   Date: {txtDate}
                 </li>
-                <li className="my-1" style={{ marginLeft: "-285px" }}>
+                <li className="my-1" style={{ marginLeft: "-70px" }}>
                   Distance: {props.arr2[0][distance3] - props.user.station_code}
                 </li>
               </li>
@@ -314,14 +314,14 @@ export default function Home(props) {
                 <button
                   type="button"
                   className="btn btn-dark rounded-pill shadow-none"
-                  style={{ marginLeft: "300px" }}
+                  style={{ marginLeft: "130px" }}
                 >
                   {props.data.Ride[2].state}
                 </button>
                 <button
                   type="button"
                   className="btn btn-dark rounded-pill mx-4 shadow-none"
-                  style={{ marginRight: "300px" }}
+                  style={{ marginRight: "130px" }}
                 >
                   {props.data.Ride[2].city}
                 </button>

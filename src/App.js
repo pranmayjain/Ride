@@ -58,6 +58,7 @@ function App() {
   return (
     <>
       <Router>
+        <div className="container"></div>
         <Navbar user={user} />
 
         <Routes>
